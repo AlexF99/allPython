@@ -1,0 +1,63 @@
+object oriented programming:
+
+INTRODUÇAO:
+
+considera-se como aplicaçao orientada a objeto quando se tem uma sequencia hierárquica de estruturas definidas - para isso, usam-se as classes
+	por exemplo, podem-se ter classes "pai" e classes "filha"
+
+classes possuem a capacidade de extensão, o que as difere das outras estruturas.
+
+classes são classificados como TADs (tipo abstrato de dados)
+
+objetos diferentes que seguem um mesmo "modelo" terão as mesmas propriedades, no entanto, cada objeto gerado será independente, por isso, se feitas alteraçoes em um objetos, essas nao alteram os outros objetos que vem do modelo, nem no modelo em si.
+
+na programaçao orientada à objetos (OOP), as classes se comportam como o modelo que gera objetos virtuais.
+
+os objetos são virtuais, no entanto ficam alocados em um espaço físico da memória do dispositivo, tornando-o "real" de certa forma.
+
+
+CONCEITOS:
+
+conceito de herança permite que sejam criados objetoss mais especializados
+
+herança: reutiliza codigo atravéz da especializaçao de objetos;
+
+composiçao: combina expressões e comandos simples em composto;
+
+estado: atributo ou variável referente à uma classe;
+
+comportamento: funcoes que manipulam os estados;
+
+exemplo de hierarquia de classes:
+
+baseexception
+	systemexit
+	keyboardinterrupt
+	exception
+		arithmeticerror
+			zerodivisionerror
+		nameerror
+		valueerror
+
+
+as classes nos permitem, atravez de um mesmo codigo(estrutura), produzir quantos objetos precisar e, a partir da herança e da composiçao, produzir estruturas mais especializadas a partir de estruturas menos especializadas
+
+
+resumo de caracteristicas da oop:
+	-geraçao de multiplas instancias
+	-especializaçao de estruturas
+	-sobrecarga de operadores
+	-polimorfismo
+
+obs: instancia = objeto
+
+
+
+
+em python, classes sao objetos também, assim como suas instâncias:
+	-isso permite criar membros de classe, que serão armazenados em todas as instâncias criadas a partir da classe
+	-facilita quando queremos que todas as instâncias de uma classe tenham caracerísticas em comum (membros de classe)
+
+
+
+

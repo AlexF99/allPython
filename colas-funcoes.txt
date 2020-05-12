@@ -1,0 +1,52 @@
+LISTAS:
+
+lista.append() - insere elementos na posiçao final da lista
+
+del(lista[index]) - deleta elementos em um inetervalo
+
+lista.pop(index) - extrai elemento de uma posiçao "index"
+
+lista.insert(self, index) - insere elemento em uma determinada posiçao
+
+lista[start:end:step] - pega uma parte de uma lista
+
+
+
+STRINGS:
+
+string multilinha:
+	-usar aspas triplas
+
+string.split(" ") --> passa-se como parametro que para cada que se repetir, cria-se um 
+	novo elemento de uma lista. nesse caso, a cada espaço (' '), cria-se novo elemento
+
+string.replace("string a ser substituida", "string a substituir")
+
+string.count("string q se busca")
+
+
+
+DICIONARIOS:
+
+
+funcoes len() e del() valem pra dicionarios, com os mesmos parametros das listas
+
+lista de chaves = mydict.keys()
+
+lista de valores associados = mydict.values()
+
+mydict.get(chave) = mydict[chave]
+
+mydict.popitem() = exclui e retorna o primeiro item do dicionario; nao recebe parametro
+
+(in) e (not in) para verificar se um elemento faz parte de um dicionario
+
+mydict.update(outrodict) --> adiciona (outrodict) em (mydict)
+
+
+
+
+
+tabela ascii
+	chr - retorna char atraves de codigo ascii
+	ord - retorna codigo ascii atraves de char

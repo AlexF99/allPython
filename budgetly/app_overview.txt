@@ -1,0 +1,58 @@
+budgeting app requisits:
+
+-in iterface will have basically the simplest dashboard with the money the user has now, a button to add an expense and one to add money to the current amount (salary, investments, freelance money)
+
+-whenever the user clicks the add button to add an expense, it will open a screen with the categories or an option to start a new one
+
+-there should be an option to check where the money was spent, how much was spent (should probably count days, months or whatever time frame)
+
+DATABASE: mysql db containing the action objects, all these inside user objects, so the user will have a log of all actions theyve made on their "current"
+
+there's 2 big challenges in buiding this app: one of them is using oop correctly or at least making it work, the second being conneting it to a database safely ad correctly.
+
+there's another big one that is making it all one executable file, I havent figured what that looks like yet
+
+****there's pretty much functions that creates and verifies users, and functions that make changes to the users' current amount of money
+
+*****research a way not to use float as the datatype for money like decimal
+
+
+----------------
+-
+-
+-
+
+      saldo
+
+
+
+
+gasto     ganho
+
+----------------
+
+
+criar duas subclasses a partir da classe Action: gasto e ganho, um com membro de classe tipo = 0 e outro = 1
+
+workflow from now on:
+
+-start commiting changes to github repository
+-learn how to use db's
+-refine oop proper usage
+-define system design pattern
+-do the above while learning
+-remember to organize files and modules
+-make it a desktop app first, so i can launch it quickly
+
+
+
+
+
+for frontend:
+
+-app returns layout, this first one has to be root widget, it is the root of screen, which can have multiple layouts in itself
+-each layout can have multiple widgets
+
+
+
+

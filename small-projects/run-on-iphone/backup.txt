@@ -1,0 +1,82 @@
+﻿#backup phone app
+
+
+#this is an app I am coding for my iphone
+
+
+classes_info = {
+
+    "contab": {"dia1": {"dia": "segunda", "horario": "14:40 - 16:40", "sala": "E-205"},
+               "dia2": {"dia": "quarta", "horario": "17:50 - 19:30", "sala": "E-205"},
+               "professor": "Luci Ines Basseto"
+    },
+
+
+    "fisica":  {"dia1": {"dia": "segunda", "horario": "16:40 - 18:40", "sala": "E-108"},
+               "dia2": {"dia": "quarta", "horario": "15:50 - 17:30", "sala": "E-201"},
+               "professor": "Cristovao"
+
+    },
+
+
+    "mec2": {"dia1": {"dia": "quinta", "horario": "20:20 - 22:10", "sala": "EB-209"},
+             "dia2": {"dia": "sexta", "horario": "19:30 - 21:10", "sala": "EB-209"},
+             "professor": "Beghetto"
+
+    },
+
+
+    "resmat": {"dia1": {"dia": "quinta", "horario": "15:50 - 17:30", "sala": "EB-301"},
+               "dia2": {"dia": "sexta", "horario": "15:50 - 17:30", "sala": "EB-209"},
+               "professor": "Alberti"
+    },
+
+
+    "hidro": {"dia1": {"dia": "terca", "horario": "18:40 - 21:10", "sala": "EB-302"},
+              "dia2": {"dia": "   ", "horario": "", "sala": ""},
+              "professor": "Moro",
+    },
+
+
+    "metodos": {"dia1": {"dia": "terca", "horario": "15:50 - 17:30", "sala": "EB-202"},
+                "dia2": {"dia": "sexta", "horario": "13:50 - 15:50", "sala": "EB-202"},
+                "professor": "Puppi"
+    }
+}
+
+
+
+# general functions
+
+def search_day(day):
+    for materia in classes_info:
+        if day in classes_info[materia]["dia1"]["dia"]:
+            print(materia, classes_info[materia]["dia1"]["horario"], classes_info[materia]["dia1"]["sala"])
+        elif day in classes_info[materia]["dia2"]["dia"]:
+            print(materia, classes_info[materia]["dia2"]["horario"], classes_info[materia]["dia2"]["sala"])
+
+
+def search_class(nome_materia):
+    for materia in classes_info:
+        if nome_materia in materia:
+            print(materia, classes_info[materia]["professor"])
+
+
+
+def menu(op):
+    if op == "1":
+        search_day(input("digite um dia da semana: "))
+    elif op == "2":
+        search_class(input("digite o nome de uma materia: "))
+    elif op == "3":
+        quit()
+    start()
+
+def start():
+    opcao = input("UTFPR\n\n1 - Pesquisar dia da semana\n2 - Pesquisar materia\n3 - terminar\n\n")
+    menu(opcao)
+
+
+
+#TODO pegar os pesos que cada avaliaçao tera e colocar nas materias para fazer calculo das medias parciais, atuais e fazer supoosiçoes
+start()

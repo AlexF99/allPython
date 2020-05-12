@@ -1,0 +1,22 @@
+Expressão Gráfica	5	8.5
+Ciência Dos Materiais Aplicada À Eng Civil	4	6.5
+Computação A	4	6.4
+Comunicação Oral E Escrita	2	8.5
+Cálculo Diferencial E Integral 1	6	6
+Geometria Analítica E Álgebra Linear	6	8.7
+Projeto Arquitetônico	4	6.8
+Materiais De Construção	6	8
+Topografia	4	6.4
+Metodologia Da Pesquisa	2	6.8
+Física 1	5	7
+Introdução À Administração	2	8.8
+Cálculo Diferencial E Integral 2	4	7.8
+Argamassas E Concretos	6	6.4
+Mecânica Geral 1	4	6.8
+Física 2	5	6.5
+Economia	2	7.2
+Equações Diferenciais Ordinárias	4	6.5
+Probabilidade E Estatística	4	6.5
+Cálculo Diferencial E Integral 3	4	7.2
+Gestão Ambiental	3	7.3
+Gestão De Pessoas	2	6.8
